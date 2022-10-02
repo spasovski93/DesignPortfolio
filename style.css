@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mydesigns {
+    background-color: rgb(233, 37, 227);
+    text-align: center;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+
+}
+
+.header {
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.designs {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 1px !important;
+    font-weight: 500;
+}
+
+
+.d-block {
+    height: 40vw;
+}
+
+.left {
+
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+    /* width: 40px !important; */
+    /* height: 40px !important; */
+    /* margin-left: 10%;
+    margin-top: -40%; */
+    /* opacity: 50%; */
+    background-color: rgba(43, 19, 201, 0.5) !important;
+
+}
+
+.right {
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+    /* width: 40px !important; */
+    /* height: 40px !important; */
+    /* margin-left: 10%;
+    margin-top: -40%; */
+    /* opacity: 50%; */
+    background-color: rgba(43, 19, 201, 0.5) !important;
+}
+
+.pictures {
+    box-shadow: 0px 0px 20px;
+}
+
+.lpages {
+    /* width: 100%; */
+    background-color: rgb(95, 139, 242);
+    padding-top: 20px;
+    /* padding-bottom: auto; */
+    text-align: left;
+    display: inline-block;
+    /* height: 100px; */
+
+
+}
+
+.landingpages {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(16, 16, 16);
+    font-weight: 500;
+}
+
+.redica {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkot {
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.linkot:hover {
+    color: green;
+}
+
+.fluidend {
+    text-align: center;
+    background-color: rgb(251, 126, 247);
+    height: 30px !important;
+
+
+
+
+}
+
+.endtext {
+    padding: 3px !important;
+    font-size: 15px;
+    color: black;
+
+}
+
+@media (max-width: 768px) {
+    .left {
+
+        border-radius: 50%;
+        width: 30px !important;
+        height: 30px !important;
+        /* width: 40px !important; */
+        /* height: 40px !important; */
+        /* margin-left: 10%;
+    margin-top: -40%; */
+        /* opacity: 50%; */
+        background-color: rgba(43, 19, 201, 0.3) !important;
+
+    }
+
+    .right {
+        border-radius: 50%;
+        width: 30px !important;
+        height: 30px !important;
+        /* width: 40px !important; */
+        /* height: 40px !important; */
+        /* margin-left: 10%;
+    margin-top: -40%; */
+        /* opacity: 50%; */
+        background-color: rgba(43, 19, 201, 0.3) !important;
+    }
+
+    .d-block {
+        height: 60vw;
+    }
+
+    /* .fluidend {
+        width: 100% !important;
+        height: 3vh;
+
+
+    } */
+}
